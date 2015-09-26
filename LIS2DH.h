@@ -220,6 +220,7 @@ class LIS2DH {
 		bool setDataRate(uint8_t rate);
 		bool enableLowPower(void);
 		bool disableLowPower(void);
+		bool enableAxisXYZ(void);
 		bool isLowPowerEnabled(void);
 		bool enableAxisX(void);
 		bool disableAxisX(void);
